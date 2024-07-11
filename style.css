@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "RubikMonoone-Regular";
+}
+
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+h2 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.full-page {
+    height: 100vh;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.text-green {
+    color: green;
+    text-align: center;
+}
+
+.text-yellow {
+    color: yellow;
+}
+
+#menu {
+    position: fixed;
+    top: 30px;
+    right: 20px;
+}
+
+#menu ul {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+
+#menu a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 30px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: white;
+    color: black
+}
